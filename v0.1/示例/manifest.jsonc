@@ -1,0 +1,42 @@
+{
+  "manifestType": "SurvivalcraftModpack",
+  "manifestVersion": 0.1,
+  "name": "测试功能的整合包",
+  "version": "1.0.0",
+  "author": "jxms",
+  "description": "描述",
+  "icon": "icon.png",
+  "created": "2025-01-01",
+  "changelog": "测试功能",
+  "survivalcraft": {
+    "version": {
+      "windows": {
+        "version": "2.4:api-1.9.0.2"
+      },
+"android": {
+				"version": "2.4:api-1.8.2.3",
+				"apkPackageName": "com.candy.survivalcraftAPI1_8"
+			}	  
+    },
+    "versionList": {
+      "android": "URL",
+      "windows": ""
+    }
+  },
+  "mods": [
+    {
+      "projectID": 1630,
+      "version": "lastest",
+      "name": "更有用的石块",
+      "required": true
+    },
+    {
+      "projectID": 1637,
+      "version": "1.0",
+      "name": "大炸药桶爆炸范围翻10倍",
+      "required": true
+    }
+  ],
+  "overrides": "overrides",
+  "checksum": "sha256"
+}
