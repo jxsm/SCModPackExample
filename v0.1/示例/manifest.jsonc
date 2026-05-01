@@ -11,7 +11,7 @@
   "survivalcraft": {
     "version": {
       "windows": {
-        "version": "2.4:api-1.9.0.2"
+        "version": "2.4:api-1.8.2.3"
       },
 "android": {
 				"version": "2.4:api-1.8.2.3",
@@ -26,7 +26,7 @@
   "mods": [
     {
       "projectID": 1630,
-      "version": "lastest",
+      "version": "latest",
       "name": "更有用的石块",
       "required": true
     },
